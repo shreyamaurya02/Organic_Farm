@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f0fdf4;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  background-image: url('image/photo-1501004318641-b39e6451bec6.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+#map {
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 16px;
+  flex: 1;
+  min-width: 280px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.light-bg {
+  background-color: #d1fae5;
+}
+
+.footer {
+  background: #047857;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
